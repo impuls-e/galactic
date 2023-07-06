@@ -28,6 +28,8 @@ export default async function handler(
     buildNextAuthOptions(req, res),
   )
 
+  console.log(session, 'session')
+
   if (!session) {
     return res.status(401).end()
   }
