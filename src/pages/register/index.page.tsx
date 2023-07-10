@@ -76,7 +76,7 @@ export default function Register() {
         <label>
           <Text size="sm">Nome de usuário</Text>
           <TextInput
-            prefix="pegasus.com/"
+            prefix="galactic.com/"
             placeholder="seu-usuario"
             {...register('username')}
           />
