@@ -1,9 +1,10 @@
 import { Heading, Text } from '@pegasus-ui/react'
-import { Container, Hero, Preview } from './styles'
+import { NextSeo } from 'next-seo'
 
+import { ClaimUsernameForm } from '../../components/ClaimUsernameForm'
 import previewImage from '../../assets/app-preview.png'
 import Image from 'next/image'
-import { ClaimUsernameForm } from '../../components/ClaimUsernameForm'
+import { Container, Hero, Preview } from './styles'
 
 export default function Home() {
   return (
